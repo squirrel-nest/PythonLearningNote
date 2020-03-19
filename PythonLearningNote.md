@@ -1,7 +1,13 @@
 # PythonLearningNote
 
-
-
+## Python 安装
+   * Windows
+      + Download Page
+         - [Python Releases for Windows](https://www.python.org/downloads/windows/)<br>
+   * Mac OS
+      + Download Page
+         - [Python Releases for Mac OS X](https://www.python.org/downloads/mac-osx/)<br>
+   
 ## Python 环境搭建
    * 参考
       + Youtube
