@@ -12,3 +12,4 @@
    * 参考
       + Youtube
          - [Setting Up VSCode For Python Programming](https://www.youtube.com/watch?v=W--_EOzdTHk&list=PLRVt-3hg7Jl6k8NuKvfX-jeLfe9MxaNnk&index=2&t=18s)<br>
+         - [Install Python 3 and PIP on Windows 10](https://www.youtube.com/watch?v=gFNApsyhpKk)<br>
