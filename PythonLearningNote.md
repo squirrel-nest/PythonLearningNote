@@ -13,3 +13,33 @@
       + Youtube
          - [Setting Up VSCode For Python Programming](https://www.youtube.com/watch?v=W--_EOzdTHk&list=PLRVt-3hg7Jl6k8NuKvfX-jeLfe9MxaNnk&index=2&t=18s)<br>
          - [Install Python 3 and PIP on Windows 10](https://www.youtube.com/watch?v=gFNApsyhpKk)<br>
+   * 环境变量的设置
+      + 参考
+         - [Installing packages using pip and virtual environments](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/) - 优先看吧。。。<br>
+         - []()<br>
+      + 设置
+         - Windows
+            1. PYTHON_HOME 的设置
+               * PYTHON_HOME=E:\Softwares\Python\Python38
+            2. PYTHON_SCRIPT 的设置
+               * PYTHON_SCRIPT=%PYTHON_HOME%\Scripts
+            3. Path 的设置
+               * %PYTHON_HOME%;%PYTHON_SCRIPT%;Path
+         - MAC OS X
+     + 验证
+        - pip --version
+        - pip --version
+        - py -m pip --version
+        - 
+   * pip - 包管理工具的使用
+      + 安装 - Installing pip
+         - Windows
+            * 随Python一起安装。
+         - Linux and macOS
+            * 随Python一起安装。
+      + 安装与更新
+         - py -m pip install --upgrade pip
+         
+   * Installing virtualenv - 不用这个，已过时
+     + >Note: If you are using Python 3.3 or newer, the venv module is the preferred way to create and manage virtual environments. venv is included in the Python standard library and requires no additional installation. If you are using venv, you may skip this section.
+     + 安装
