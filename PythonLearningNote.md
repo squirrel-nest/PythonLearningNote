@@ -67,8 +67,9 @@
          - [12.3. Managing Packages with pip](https://docs.python.org/3/tutorial/venv.html#managing-packages-with-pip)<br>
 ## Installing Python Modules
    * 参考
-      + [Installing Python Modules](https://docs.python.org/3/installing/index.html#installing-index)<br>
-## Installing Packages - 与 Installing Python Modules 什么区别？
+      + [Installing Python Modules](https://docs.python.org/3/installing/index.html#installing-index) - 诸如：pip、venv、以及各种package统称为 Modules<br>
+        
+## Installing Packages - 与 Installing Python Modules 什么区别？ - Packages是包含在 Modules 中的一个部分
    * 参考
       + [Installing Packages](https://packaging.python.org/tutorials/installing-packages/#requirements-for-installing-packages)<br>
          - >This section covers the basics of how to install Python packages.
