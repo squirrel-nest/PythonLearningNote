@@ -41,5 +41,36 @@
          - py -m pip install --upgrade pip
          
    * Installing virtualenv - 不用这个，已过时
-     + >Note: If you are using Python 3.3 or newer, the venv module is the preferred way to create and manage virtual environments. venv is included in the Python standard library and requires no additional installation. If you are using venv, you may skip this section.
-     + 安装
+      + >Note: If you are using Python 3.3 or newer, the venv module is the preferred way to create and manage virtual environments. venv is included in the Python standard library and requires no additional installation. If you are using venv, you may skip this section.
+      + 安装
+   * 12. Virtual Environments and Packages - 用这个
+      + 参考
+         - [12. Virtual Environments and Packages](https://docs.python.org/3/tutorial/venv.html)<br>
+      + 步骤
+         1. 12.2. Creating Virtual Environments
+            - To create a virtual environment with Command：
+               * ```bash
+                    python -m venv tutorial-env
+                 ```
+            - Once you’ve created a virtual environment, you may activate it.
+               * Windows
+               ```bash
+                   tutorial-env\Scripts\activate.bat
+            
+               ```
+               * On Unix or MacOS, run:
+               ```bash
+                   source tutorial-env/bin/activate
+               ```
+   * 12.3. Managing Packages with pip
+      + 参考
+         - [12.3. Managing Packages with pip](https://docs.python.org/3/tutorial/venv.html#managing-packages-with-pip)<br>
+## Installing Python Modules
+   * 参考
+      + [Installing Python Modules](https://docs.python.org/3/installing/index.html#installing-index)<br>
+## Installing Packages - 与 Installing Python Modules 什么区别？
+   * 参考
+      + [Installing Packages](https://packaging.python.org/tutorials/installing-packages/#requirements-for-installing-packages)<br>
+         - >This section covers the basics of how to install Python packages.
+           >
+           >It’s important to note that the term “package” in this context is being used as a synonym for a distribution (i.e. a bundle of software to be installed), not to refer to the kind of package that you import in your Python source code (i.e. a container of modules). It is common in the Python community to refer to a distribution using the term “package”. Using the term “distribution” is often not preferred, because it can easily be confused with a Linux distribution, or another larger software distribution like Python itself.
