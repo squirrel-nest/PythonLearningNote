@@ -1,6 +1,7 @@
 # PythonLearningNote
 ## Python Learning Step by Step
    * Tutorial
+      + [Beginner's Guide to Python](https://wiki.python.org/moin/BeginnersGuide)<br>
       + [The Python Tutorial](https://docs.python.org/3/tutorial/)<br>
 ## Python 安装
    * Windows
