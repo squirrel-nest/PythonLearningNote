@@ -88,3 +88,7 @@
 ## Installing packages using pip and virtual environments
    * 参考
       + [Installing packages using pip and virtual environments](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)<br>
+
+# Samples
+## AI
+   * [yoyoyohamapi/mit-ml](https://github.com/yoyoyohamapi/mit-ml)<br>
