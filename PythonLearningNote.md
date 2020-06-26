@@ -14,7 +14,7 @@
    * Mac OS
       + Download Page
          - [Python Releases for Mac OS X](https://www.python.org/downloads/mac-osx/)<br>
-   
+   * Raspberry 安装请移步 - [RaspberryPiePractice/RaspberryPieDevelopment](https://github.com/huarui0/RaspberryPiePractice/blob/master/RaspberryPieDevelopment)<br>
 ## Python 环境搭建
    * 参考
       + Youtube
