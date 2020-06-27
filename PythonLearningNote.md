@@ -7,7 +7,7 @@
         - [Introduction to Computer Science and Programming Using Python | Python Basics | Introduction](https://www.youtube.com/watch?v=Q_itdXI3YeE&list=PLRJdqdXieSHN0U9AdnmwD-9QcR9hmw04d)<br>
         - [6.0001 Introduction to Computer Science and Programming in Python. Fall 2016](https://www.youtube.com/playlist?list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA)<br>
       + [Python Numpy Tutorial (with Jupyter and Colab)](https://cs231n.github.io/python-numpy-tutorial/)<br>
-## Python Development --> [PythonDevelopingNote.md](https://github.com/squirrel-nest/PythonLearningNote/edit/master/PythonDevelopingNote.md)<br>      
+## Python Development --> [PythonDevelopingNote.md](https://github.com/squirrel-nest/PythonLearningNote/blob/master/PythonDevelopingNote.md)<br>      
 ## Python 安装
    * Windows
       + Download Page
