@@ -3,6 +3,7 @@
    * Tutorial
       + [Beginner's Guide to Python](https://wiki.python.org/moin/BeginnersGuide)<br>
       + [The Python Tutorial](https://docs.python.org/3/tutorial/)<br>
+      + [Python 3 Tutorial](https://www.python-course.eu/python3_functions.php)<br>
       + YouTube
         - [Introduction to Computer Science and Programming Using Python | Python Basics | Introduction](https://www.youtube.com/watch?v=Q_itdXI3YeE&list=PLRJdqdXieSHN0U9AdnmwD-9QcR9hmw04d)<br>
         - [6.0001 Introduction to Computer Science and Programming in Python. Fall 2016](https://www.youtube.com/playlist?list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA)<br>
