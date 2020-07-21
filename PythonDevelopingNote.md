@@ -21,7 +21,8 @@
 ## MQTT
    * 参考
       + [Beginners Guide To The Paho MQTT Python Client](http://www.steves-internet-guide.com/into-mqtt-python-client/)<br>
-      
+      + [How to Install Mosquitto on The Raspberry Pi - 重要参考](https://stevessmarthomeguide.com/install-mosquitto-raspberry-pi/)<br>
+Calling mosquitto stop and start from Python](https://www.raspberrypi.org/forums/viewtopic.php?t=262978) - 两种方法<br>
       + [mosquitto_pub man page](https://mosquitto.org/man/mosquitto_pub-1.html)<br>
       + [mosquitto_sub man page](https://mosquitto.org/man/mosquitto_sub-1.html)<br>
       + [mosquitto_pub - an MQTT version 5/3.1.1/3.1 client for publishing simple messages](https://manpages.debian.org/testing/mosquitto-clients/mosquitto_pub.1.en.html)<br>
@@ -32,6 +33,52 @@
    * 源代码 - Sample
       + /raspberrypidev_local/pythondev/mqttdev/example/PiPy-MQTT
       + 
+   * 查询是否运行及占用的端口
+      + [MQTT Broker help](https://www.raspberrypi.org/forums/viewtopic.php?t=268552)<br>
+      + ps -ef | grep mosq
+      + sudo netstat -tlnpu | grep mosq
+      + sudo systemctl status mosquitto
+   * 安装步骤
+      1. 下载
+         - ```
+              ce /softwares
+              wget http://repo.mosquitto.org/debian/mosquitto-repo.gpg.key
+              sudo apt-key add mosquitto-repo.gpg.key
+           ```
+      2. Then make the repository available :
+         - ```
+               cd /etc/apt/sources.list.d/
+           ```
+      3. Then , depending on which version of debian you are using:
+         - ```
+              sudo wget http://repo.mosquitto.org/debian/mosquitto-jessie.list
+              sudo wget http://repo.mosquitto.org/debian/mosquitto-stretch.list
+              sudo wget http://repo.mosquitto.org/debian/mosquitto-buster.list
+           ```
+      4. Then update apt information:
+         - ```
+              sudo apt-get update
+              sudo apt-get install mosquitto
+              sudo apt-get install mosquitto-clients
+           ```
+   * Running Mosquitto Manually
+      1. The first step is to stop mosquitto using:
+         - ```
+              sudo systemctl stop mosquitto.service 
+           ```
+      2. Then you can start it using:
+         - ```
+               mosquitto -v   #start in verbose mode
+           ```
+   * Testing the Install
+      1. So first open two command prompts in one type.
+         - ```
+             mosquitto_sub -h localhost -t bedroom/light -d
+           ```
+      2. in the second type
+         - ```
+             mosquitto_pub -h localhost -t bedroom/light -m  message
+           ```
 ## Python Flask
    * 参考
       + [欢迎进入Flask大型教程项目！- 下面教程的中文版](http://www.pythondoc.com/flask-mega-tutorial/)<br>
