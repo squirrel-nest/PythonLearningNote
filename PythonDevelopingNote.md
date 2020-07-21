@@ -22,10 +22,13 @@
    * 参考
       + [Beginners Guide To The Paho MQTT Python Client](http://www.steves-internet-guide.com/into-mqtt-python-client/)<br>
       + [How to Install Mosquitto on The Raspberry Pi - 重要参考](https://stevessmarthomeguide.com/install-mosquitto-raspberry-pi/)<br>
+      + [Paho Python - MQTT Client Library Encyclopedia](https://www.hivemq.com/blog/mqtt-client-library-paho-python/)<br>
+         - 说明：指定版本、指定用户等，研究这篇文章及例子
 Calling mosquitto stop and start from Python](https://www.raspberrypi.org/forums/viewtopic.php?t=262978) - 两种方法<br>
       + [mosquitto_pub man page](https://mosquitto.org/man/mosquitto_pub-1.html)<br>
       + [mosquitto_sub man page](https://mosquitto.org/man/mosquitto_sub-1.html)<br>
       + [mosquitto_pub - an MQTT version 5/3.1.1/3.1 client for publishing simple messages](https://manpages.debian.org/testing/mosquitto-clients/mosquitto_pub.1.en.html)<br>
+      + [CloudAMQP with MQTT and Python Getting started](https://www.cloudamqp.com/docs/python_mqtt.html) - 例子中事件全，参考<br>
       
       + [Node-RED - Low-code programming for event-driven applications](https://nodered.org/)<br>
       + Youtube
