@@ -35,7 +35,9 @@ Calling mosquitto stop and start from Python](https://www.raspberrypi.org/forums
          - [Understanding MQTT: How Smart Home Devices Communicate](https://www.youtube.com/watch?v=NjKK5ab0-Kk)<br>
    * 源代码 - Sample
       + /raspberrypidev_local/pythondev/mqttdev/example/PiPy-MQTT
-      + 
+      + [C语言的例子](MQTT client examples](https://cumulocity.com/guides/device-sdk/mqtt-examples/)<br>
+      + [CloudMQTT 的例子](https://www.cloudmqtt.com/docs/python.html)<br>
+      + [Sending and Receiving Messages with MQTT](https://www.ev3dev.org/docs/tutorials/sending-and-receiving-messages-with-mqtt/) - 乐高的机器人编程工具教程<br>
    * 查询是否运行及占用的端口
       + [MQTT Broker help](https://www.raspberrypi.org/forums/viewtopic.php?t=268552)<br>
       + ps -ef | grep mosq
