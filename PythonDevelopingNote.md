@@ -21,7 +21,8 @@
 ## MQTT
    * 参考
       + [Beginners Guide To The Paho MQTT Python Client](http://www.steves-internet-guide.com/into-mqtt-python-client/)<br>
-      + [How to Install Mosquitto on The Raspberry Pi - 重要参考](https://stevessmarthomeguide.com/install-mosquitto-raspberry-pi/)<br>
+      + [Paho Python MQTT Client Subscribe With Examples](http://www.steves-internet-guide.com/subscribing-topics-mqtt-client/)<br>
+      + [How to Install Mosquitto on The Raspberry Pi - 安装的重要参考](https://stevessmarthomeguide.com/install-mosquitto-raspberry-pi/)<br>
       + [Paho Python - MQTT Client Library Encyclopedia](https://www.hivemq.com/blog/mqtt-client-library-paho-python/)<br>
          - 说明：指定版本、指定用户等，研究这篇文章及例子
 Calling mosquitto stop and start from Python](https://www.raspberrypi.org/forums/viewtopic.php?t=262978) - 两种方法<br>
