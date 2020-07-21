@@ -21,6 +21,14 @@
 ## MQTT
    * 参考
       + [Beginners Guide To The Paho MQTT Python Client](http://www.steves-internet-guide.com/into-mqtt-python-client/)<br>
+      
+      + [mosquitto_pub man page](https://mosquitto.org/man/mosquitto_pub-1.html)<br>
+      + [mosquitto_sub man page](https://mosquitto.org/man/mosquitto_sub-1.html)<br>
+      + [mosquitto_pub - an MQTT version 5/3.1.1/3.1 client for publishing simple messages](https://manpages.debian.org/testing/mosquitto-clients/mosquitto_pub.1.en.html)<br>
+      
+      + [Node-RED - Low-code programming for event-driven applications](https://nodered.org/)<br>
+      + Youtube
+         - [Understanding MQTT: How Smart Home Devices Communicate](https://www.youtube.com/watch?v=NjKK5ab0-Kk)<br>
    * 源代码 - Sample
       + /raspberrypidev_local/pythondev/mqttdev/example/PiPy-MQTT
       + 
