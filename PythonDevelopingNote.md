@@ -89,3 +89,9 @@ Calling mosquitto stop and start from Python](https://www.raspberrypi.org/forums
    * 参考
       + [欢迎进入Flask大型教程项目！- 下面教程的中文版](http://www.pythondoc.com/flask-mega-tutorial/)<br>
       + [The Flask Mega-Tutorial Part I: Hello, World!](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)<br>
+
+# Run Python App
+## 执行Python脚本的方法
+   * Google Search: run python script in background - raspberry pi
+   * Google Search: launch python script on startup raspberry pi
+   * Google Search: how to run python script as a background process
