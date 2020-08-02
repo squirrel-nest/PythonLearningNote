@@ -22,7 +22,7 @@
       + 这个例子是很重要（重要参考）：[Write a Multithreaded Server in Python](https://www.techbeamers.com/python-tutorial-write-multithreaded-python-server/)<br>
       + [Python Threaded TCP Socket Server Example](https://forum.derivative.ca/t/python-threaded-tcp-socket-server-example/12002)<br>
       + 例子：[matthewwachter/py-tcp-threaded-server](https://github.com/matthewwachter/py-tcp-threaded-server><br>
-
+      + [Python socketserver.ThreadingTCPServer(https://www.programcreek.com/python/example/107959/socketserver.ThreadingTCPServer) Examples]()<br>
 ## WebSocket 
 
 ## MQTT
