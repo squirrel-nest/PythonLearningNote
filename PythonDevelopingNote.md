@@ -16,6 +16,11 @@
       + [Python socket – chat server and client with code example](https://www.binarytides.com/code-chat-application-server-client-sockets-python/)<br>
    * Sample Code
       + [Socket Server with Multiple Clients | Multithreading | Python](https://codezup.com/socket-server-with-multiple-clients-model-multithreading-python/)<br>
+
+## Socket 的 Thread 方法
+   * 参考
+      + [Python Threaded TCP Socket Server Example](https://forum.derivative.ca/t/python-threaded-tcp-socket-server-example/12002)<br>
+
 ## WebSocket 
 
 ## MQTT
@@ -85,6 +90,9 @@ Calling mosquitto stop and start from Python](https://www.raspberrypi.org/forums
          - ```
              mosquitto_pub -h localhost -t bedroom/light -m  message
            ```
+## Python 异步的方法
+   * 参考
+      + [Python-based MQTT #1: HBMQTT Broker & Paho MQTT Client](https://www.youtube.com/watch?v=hmM4h174suk)<br>
 ## Python Flask
    * 参考
       + [欢迎进入Flask大型教程项目！- 下面教程的中文版](http://www.pythondoc.com/flask-mega-tutorial/)<br>
