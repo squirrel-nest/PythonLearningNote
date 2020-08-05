@@ -97,7 +97,14 @@
    * 参考
       + [SkinnyPi - Weight Loss Party - Python Script](https://github.com/jazmy/raspberrypi-skinnypi/README.md)<br>
 
-
+## Python 的编译
+   * 官网参考
+      + [PyInstaller Quickstart](http://www.pyinstaller.org/)<br>
+   * 参考
+      + [https://pyinstaller.readthedocs.io/en/stable/](https://pyinstaller.readthedocs.io/en/stable/)<br>
+      + [How to Install PyInstaller](https://pyinstaller.readthedocs.io/en/stable/installation.html#installed-commands)<br>
+      
+      + 
 
 
 # Samples
