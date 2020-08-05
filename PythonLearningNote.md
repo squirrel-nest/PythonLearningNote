@@ -105,8 +105,9 @@
       + [How to Install PyInstaller](https://pyinstaller.readthedocs.io/en/stable/installation.html#installed-commands)<br>
       
       + 
-
-
+## Pi 与 步进电机 精准控制
+   * 参考
+      + [Adafruit 16-Channel PWM / Servo HAT for Raspberry Pi - Mini Kit](https://www.adafruit.com/product/2327)<br>
 # Samples
 ## AI
    * [yoyoyohamapi/mit-ml](https://github.com/yoyoyohamapi/mit-ml)<br>
