@@ -96,6 +96,10 @@
 ## 开机启动 Python 应用的方法 - Linux & Raspberry Pi
    * 参考
       + [SkinnyPi - Weight Loss Party - Python Script](https://github.com/jazmy/raspberrypi-skinnypi/README.md)<br>
+
+
+
+
 # Samples
 ## AI
    * [yoyoyohamapi/mit-ml](https://github.com/yoyoyohamapi/mit-ml)<br>
