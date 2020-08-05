@@ -1,3 +1,12 @@
+# Database
+## SQLite Database
+### In Memory Database
+   * 官方参考
+      + 这是官方的参考文档：[In-Memory Databases](https://www.sqlite.org/inmemorydb.html)<br>
+   * 参考
+      + [Python SQLite Tutorial — The Ultimate Guide](https://towardsdatascience.com/python-sqlite-tutorial-the-ultimate-guide-fdcb8d7a4f30)<br>
+      + [How can I attach an in-memory SQLite database in Python?](https://stackoverflow.com/questions/32681761/how-can-i-attach-an-in-memory-sqlite-database-in-python/32681822#32681822)<br>
+
 # Networking
 ## 知识点
    * 参考
