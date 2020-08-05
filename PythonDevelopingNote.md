@@ -32,6 +32,9 @@
       + [Python Threaded TCP Socket Server Example](https://forum.derivative.ca/t/python-threaded-tcp-socket-server-example/12002)<br>
       + 例子：[matthewwachter/py-tcp-threaded-server](https://github.com/matthewwachter/py-tcp-threaded-server><br>
       + [Python socketserver.ThreadingTCPServer(https://www.programcreek.com/python/example/107959/socketserver.ThreadingTCPServer) Examples]()<br>
+      
+      
+      + 这篇很好的例子，参考！[Multiple concurrent GPIO actcions](https://www.raspberrypi.org/forums/viewtopic.php?t=175252)<br>
 ## WebSocket 
 
 ## MQTT
