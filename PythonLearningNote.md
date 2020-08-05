@@ -111,3 +111,7 @@
 # Samples
 ## AI
    * [yoyoyohamapi/mit-ml](https://github.com/yoyoyohamapi/mit-ml)<br>
+## Smart Home
+   * [pubnub
+/
+pi-house](https://github.com/pubnub/pi-house)<br>
