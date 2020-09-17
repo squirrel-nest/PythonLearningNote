@@ -39,6 +39,10 @@
       
       
       + 这篇很好的例子，参考！[Multiple concurrent GPIO actcions](https://www.raspberrypi.org/forums/viewtopic.php?t=175252)<br>
+
+## Socket 的 Selector 用法
+   * 一些有用的方法的使用（有空研究下）：[materials/python-sockets-tutorial](https://github.com/realpython/materials/blob/master/python-sockets-tutorial/multiconn-server.py)<br>
+
 ## WebSocket 
 
 ## MQTT
