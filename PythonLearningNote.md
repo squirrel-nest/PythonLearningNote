@@ -34,7 +34,8 @@
                * PYTHON_SCRIPT=%PYTHON_HOME%\Scripts
             3. Path 的设置
                * %PYTHON_HOME%;%PYTHON_SCRIPT%;Path
-         - MAC OS X
+         - MAC OS X - 应该设置成版本可切换。。。
+         
      + 验证
         - pip --version
         - pip --version
