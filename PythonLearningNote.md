@@ -44,8 +44,8 @@
    * pip - 包管理工具的使用
       + 安装 - Installing pip --> 
          - 参见：
-            * [RaspberryPieDevelopment - pip的安装](https://github.com/huarui0/RaspberryPiePractice/edit/master/RaspberryPieDevelopment.md#installofpip)<br>
-            * <a href="https://github.com/huarui0/RaspberryPiePractice/edit/master/RaspberryPieDevelopment.md#installofpip">查看 RaspberryPieDevelopment - pip的安装</a>
+            * [RaspberryPieDevelopment - pip的安装](https://github.com/huarui0/RaspberryPiePractice/blob/master/RaspberryPieDevelopment.md#installofpip)<br>
+            * <a href="https://github.com/huarui0/RaspberryPiePractice/blob/master/RaspberryPieDevelopment.md#installofpip">查看 RaspberryPieDevelopment - pip的安装</a>
          - Windows
             * 随Python一起安装。
          - Linux and macOS
