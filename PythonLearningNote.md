@@ -9,7 +9,7 @@
         - [6.0001 Introduction to Computer Science and Programming in Python. Fall 2016](https://www.youtube.com/playlist?list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA)<br>
       + [Python Numpy Tutorial (with Jupyter and Colab)](https://cs231n.github.io/python-numpy-tutorial/)<br>
 ## Python Development --> [PythonDevelopingNote.md](https://github.com/squirrel-nest/PythonLearningNote/blob/master/PythonDevelopingNote.md)<br>      
-## Python 安装
+## Python 安装 -- 参见 [RaspberryPieDevelopment - Python的安装](https://github.com/huarui0/RaspberryPiePractice/blob/master/RaspberryPieDevelopment.md#installofpython)<br>
    * Windows
       + Download Page
          - [Python Releases for Windows](https://www.python.org/downloads/windows/)<br>
@@ -42,7 +42,7 @@
         - py -m pip --version
         - 
    * pip - 包管理工具的使用
-      + 安装 - Installing pip
+      + 安装 - Installing pip --> 参见：[RaspberryPieDevelopment - pip的安装](https://github.com/huarui0/RaspberryPiePractice/edit/master/RaspberryPieDevelopment.md#installofpip)<br>
          - Windows
             * 随Python一起安装。
          - Linux and macOS
