@@ -18,6 +18,7 @@
          - [Python Releases for Mac OS X](https://www.python.org/downloads/mac-osx/)<br>
    * Raspberry 安装请移步 - [RaspberryPiePractice/RaspberryPieDevelopment](https://github.com/huarui0/RaspberryPiePractice/blob/master/RaspberryPieDevelopment)<br>
 ## Python 环境搭建
+### Python 默认安装模式环境搭建 - 由随Python一起安装的pip管理工具进行包管理
    * 参考
       + Youtube
          - [Setting Up VSCode For Python Programming](https://www.youtube.com/watch?v=W--_EOzdTHk&list=PLRVt-3hg7Jl6k8NuKvfX-jeLfe9MxaNnk&index=2&t=18s)<br>
@@ -52,32 +53,105 @@
             * 随Python一起安装。
       + 安装与更新
          - py -m pip install --upgrade pip
-         
-   * Installing virtualenv - 不用这个，已过时
-      + >Note: If you are using Python 3.3 or newer, the venv module is the preferred way to create and manage virtual environments. venv is included in the Python standard library and requires no additional installation. If you are using venv, you may skip this section.
-      + 安装
-   * 12. Virtual Environments and Packages - 用这个
-      + 参考
-         - [12. Virtual Environments and Packages](https://docs.python.org/3/tutorial/venv.html)<br>
-      + 步骤
-         1. 12.2. Creating Virtual Environments
-            - To create a virtual environment with Command：
-               * ```bash
-                    python -m venv tutorial-env
-                 ```
-            - Once you’ve created a virtual environment, you may activate it.
-               * Windows
-               ```bash
-                   tutorial-env\Scripts\activate.bat
-            
-               ```
-               * On Unix or MacOS, run:
-               ```bash
-                   source tutorial-env/bin/activate
-               ```
    * 12.3. Managing Packages with pip
       + 参考
          - [12.3. Managing Packages with pip](https://docs.python.org/3/tutorial/venv.html#managing-packages-with-pip)<br>
+### Anaconda模式环境的搭建
+   * 参考
+      + [Anaconda介绍、安装及使用教程](https://zhuanlan.zhihu.com/p/32925500) - **按照这篇介绍操作即可**<br>
+   * 步骤
+      1. 安装
+      
+      2. 管理conda
+         + 打开命令行模式的方法
+            - Windows
+               * 开始菜单 --> 打开“Anaconda Prompt”
+            - Linux/MacOS
+               * 打开“Terminal”（“终端”）进行操作。
+         + 验证安装结果及版本
+            - conda --version
+         + 更新conda至最新版本
+            - conda update conda
+         + 查看conda帮助信息
+            - conda --help | conda -h
+         + 卸载conda
+            - Windows
+               * 控制面板 → 添加或删除程序 → 选择“Python X.X (Anaconda)” → 点击“删除程序”
+            - Linux/MacOS
+               * rm -rf ~/anaconda3
+      3. 管理环境
+         + 创建新环境
+            - conda create --name <env_name> <package_names>
+         + 切换环境
+            - Windows
+               * activate <env_name>
+            
+            - Linux/MacOS
+               * source activate <env_name>
+         + 退出环境至root
+            - Windows
+               * deactivate
+            - Linux/MacOS
+               * source deactivate
+         + 显示已创建环境
+            - conda info --envs | conda info -e | conda env list
+         + 复制环境
+            - conda create --name <new_env_name> --clone <copied_env_name>
+         + 删除环境
+            - conda remove --name <env_name> --all
+         + 
+      4. 管理包
+         1. 查找可供安装的包版本
+            - ① 精确查找
+               + conda search --full-name `<package_full_name>`
+            - ② 模糊查找
+               + conda search `<text>`
+         2. 获取当前环境中已安装的包信息
+            - conda list
+         3. 安装包
+            1. ① 在指定环境中安装包
+               - conda install --name <env_name> <package_name>
+            2. ② 在当前环境中安装包
+               - conda install <package_name>
+            3. ③ 使用pip安装包
+            4. ④ 从http://Anaconda.org安装包
+         4. 卸载包
+            1. ① 卸载指定环境中的包
+               - conda remove --name <env_name> <package_name>
+            2. ② 卸载当前环境中的包
+               - conda remove <package_name>
+         5. 更新包
+            1. ① 更新所有包
+               - conda update --all | conda upgrade --all
+            2. ② 更新指定包 - 更新多个指定包，则包名以空格隔开，向后排列。
+               - conda update <package_name> | conda upgrade <package_name>
+      
+         
+            
+### 12. Virtual Environments and Packages - 用这个
+   * 参考
+      + [12. Virtual Environments and Packages](https://docs.python.org/3/tutorial/venv.html)<br>
+   * 步骤
+      1. 12.2. Creating Virtual Environments
+         - To create a virtual environment with Command：
+            * Linux
+            ```bash
+                 python -m venv tutorial-env
+            ```
+          - Once you’ve created a virtual environment, you may activate it.
+             * Windows
+             ```bash
+                 tutorial-env\Scripts\activate.bat
+             ```
+             * On Unix or MacOS, run:
+             ```bash
+                 source tutorial-env/bin/activate
+             ```
+
+### Installing virtualenv - 不用这个，已过时
+   * >Note: If you are using Python 3.3 or newer, the venv module is the preferred way to create and manage virtual environments. venv is included in the Python standard library and requires no additional installation. If you are using venv, you may skip this section.
+   * 安装
+
 ## Installing Python Modules
    * 参考
       + [Installing Python Modules](https://docs.python.org/3/installing/index.html#installing-index) - 诸如：pip、venv、以及各种package统称为 Modules<br>
