@@ -81,13 +81,13 @@
                * rm -rf ~/anaconda3
       3. 管理环境
          + 创建新环境
-            - conda create --name <env_name> <package_names>
+            - conda create --name `<env_name>` `<package_names>`
          + 切换环境
             - Windows
-               * activate <env_name>
+               * activate `<env_name>`
             
             - Linux/MacOS
-               * source activate <env_name>
+               * source activate `<env_name>`
          + 退出环境至root
             - Windows
                * deactivate
@@ -96,10 +96,14 @@
          + 显示已创建环境
             - conda info --envs | conda info -e | conda env list
          + 复制环境
-            - conda create --name <new_env_name> --clone <copied_env_name>
+            - conda create --name `<new_env_name>` --clone `<copied_env_name>`
          + 删除环境
             - conda remove --name <env_name> --all
-         + 
+         + 导入导出环境 --> 参考：
+            - 导出环境
+               * conda env export > environment.yaml
+            - 导入环境
+               * conda env create -f environment.yaml
       4. 管理包
          1. 查找可供安装的包版本
             - ① 精确查找
@@ -110,7 +114,7 @@
             - conda list
          3. 安装包
             1. ① 在指定环境中安装包
-               - conda install --name <env_name> <package_name>
+               - conda install --name `<env_name>` `<package_name>`
             2. ② 在当前环境中安装包
                - conda install <package_name>
             3. ③ 使用pip安装包
