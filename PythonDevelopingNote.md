@@ -1,3 +1,6 @@
+# Numba
+   * 参考
+      + [Accelerate Python Functions](https://numba.pydata.org/)<br>
 # Threading
 ## Python Threading
    * 参考
