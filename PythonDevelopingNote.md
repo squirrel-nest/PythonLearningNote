@@ -5,6 +5,8 @@
    * 参考
       + 参考其中多线程的例子：[Python3 process and display webcam stream at the webcams fps
 ](https://stackoverflow.com/questions/62576326/python3-process-and-display-webcam-stream-at-the-webcams-fps)<br>
+      + [lincolnhard/head-pose-estimation](https://github.com/lincolnhard/head-pose-estimation)<br>
+         >Real-time head pose estimation built with OpenCV and dlib
 # Threading
 ## Python Threading
    * 参考
