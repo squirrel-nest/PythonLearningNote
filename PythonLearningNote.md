@@ -192,6 +192,9 @@
    * 参考
       + [Adafruit 16-Channel PWM / Servo HAT for Raspberry Pi - Mini Kit](https://www.adafruit.com/product/2327)<br>
 # Samples
+## Python GUI
+   * [PySimpleGUI/PySimpleGUI](https://github.com/PySimpleGUI/PySimpleGUI)<br>
+   * [PySimpleGUI/PySimpleGUI/DemoPrograms/](https://github.com/PySimpleGUI/PySimpleGUI/tree/master/DemoPrograms)<br>
 ## AI
    * [yoyoyohamapi/mit-ml](https://github.com/yoyoyohamapi/mit-ml)<br>
 ## Smart Home
