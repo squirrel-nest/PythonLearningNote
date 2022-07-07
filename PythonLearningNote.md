@@ -17,7 +17,7 @@
    * Mac OS
       + Download Page
          - [Python Releases for Mac OS X](https://www.python.org/downloads/mac-osx/)<br>
-   * Raspberry 安装请移步 - [RaspberryPiePractice/RaspberryPieDevelopment](https://github.com/huarui0/RaspberryPiePractice/blob/master/RaspberryPieDevelopment)<br>
+   * Raspberry 安装请移步 - [RaspberryPiePractice/RaspberryPieDevelopment](https://github.com/huarui0/RaspberryPiePractice/blob/master/RaspberryPieDevelopment.md#installofpython)<br>
 ## Python 环境搭建
 ### Python 默认安装模式环境搭建 - 由随Python一起安装的pip管理工具进行包管理
    * 参考
